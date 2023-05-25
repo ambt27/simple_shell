@@ -12,7 +12,7 @@ void _eputs(char *str)
 		return;
 	while (str[flag] != '\0')
 	{
-		_eputs(str[flag]);
+		_eputchar(str[flag]);
 		flag++;
 	}
 }
